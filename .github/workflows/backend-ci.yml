@@ -1,4 +1,4 @@
-name: Backend CI workflow
+name: Backend Continuous Integration
 
 on:
   workflow_dispatch: # Run workflow manually

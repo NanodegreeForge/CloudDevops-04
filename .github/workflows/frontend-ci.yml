@@ -1,4 +1,4 @@
-name: Frontend CI workflow
+name: Frontend Continuous Integration
 
 on:
   workflow_dispatch: # Run workflow manually
@@ -11,7 +11,6 @@ on:
 jobs:
   lint:
     runs-on: ubuntu-latest
-    environment: Devlopmnet Environment
 
     steps:
     - name: checkout
